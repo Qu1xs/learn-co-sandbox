@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "project/cli/version"
+require "Hermes/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "project-cli"
-  spec.version       = Project::Cli::VERSION
+  spec.name          = "Hermes"
+  spec.version       = Hermes::VERSION
   spec.authors       = ["'kevin murphy'"]
   spec.email         = ["'kevinnealmurphy@gmail.com'"]
 
